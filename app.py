@@ -190,7 +190,7 @@ st.markdown("""
 tab1, tab2, tab3, tab4 = st.tabs(["🎯 Requirements Analysis", "📎 Document Analyzer", "🛠️ BA Toolkit", "📊 Session History"])
 
 with tab1:
-        st.markdown("#### 🎯 Requirements & Business Analysis")
+    st.markdown("#### 🎯 Requirements & Business Analysis")
     st.markdown("<div style='color:#8b9ab5;font-size:0.9rem;margin-bottom:1rem'>Describe your BA scenario, problem statement, or requirements challenge.</div>", unsafe_allow_html=True)
     babok_area = st.selectbox("BABOK Knowledge Area", [
         "📋 Business Analysis Planning & Monitoring",
